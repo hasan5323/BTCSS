@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML5 Semantic Tags</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+        line-height: 1.4;
+      }
+
+      #header {
+        margin-bottom: 15px;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      #main {
+        float: left;
+        width: 69%;
+      }
+
+      #sidebar {
+        float: right;
+        width: 29%;
+      }
+
+      .clr {
+        clear: both;
+      }
+
+      #footer {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      .text-center {
+        display: block;
+        text-align: center;
+      }
+
+      .card {
+        border: 1px solid #ddd;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+          /* Navbar Styling */
+    .navbar {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background: #4c6cb0;
+      border-radius: 5px;
+      overflow: auto;
+    }
+
+    .navbar li {
+      float: left;
+    }
+
+    .navbar li a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 20px;
+    }
+
+    .navbar li a:hover {
+      background-color: #446190;
+      color: #f4f4f4;
+    }
+
+    .box {
+      background: #f4f4f4;
+      border: 2px #777 solid;
+      width: 300px;
+      height: 250px;
+      box-sizing: border-box;
+      float: left;
+      padding: 10px;
+      margin: 5px 20px;
+box-sizing: border-box;    }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="card">
+      <h1>My Website</h1>
+      <p>Just Another Website</p>
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <br><br>
+    </header>
+
+    <!-- Main Content (left) -->
+    <main id="main">
+      <!-- Welcome Section -->
+      <section id="welcome" class="card">
+        <h2>Welcome To Our Website</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+          cupiditate itaque possimus numquam corporis odit deserunt voluptas
+          repellat ad ex earum magnam mollitia magni eaque nisi, excepturi nam
+          temporibus! Sed. <br />
+          <a href="#" class="text-center">Click For More</a>
+        </p>
+      </section>
+      <!-- Blog Section -->
+      <section id="blog">
+        <h2>All Category</h2>
+                <!-- Article One -->
+                <article class="article box">
+                    <h3>Article One</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                      veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                      totam accusantium officiis!
+                    </p>
+                  </article>
+                  <!-- Article Two -->
+                  <article class="article box">
+                    <h3>Article Two</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                      veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                      totam accusantium officiis!
+                    </p>
+                  </article>
+                  <!-- Article Two -->
+                  <article class="article box">
+                      <h3>Article Two</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                        veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                        totam accusantium officiis!
+                      </p>
+                    </article>
+                            <!-- Article Two -->
+                  <article class="article box">
+                      <h3>Article Two</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                        veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                        totam accusantium officiis!
+                      </p>
+                    </article>
+                            <!-- Article One -->
+                  <article class="article box">
+                      <h3>Article One</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                        veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                        totam accusantium officiis!
+                      </p>
+                    </article>
+                    <!-- Article Two -->
+                    <article class="article box">
+                      <h3>Article Two</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                        veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                        totam accusantium officiis!
+                      </p>
+                    </article>
+                    <!-- Article Two -->
+                    <article class="article box">
+                        <h3>Article Two</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                          veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                          totam accusantium officiis!
+                        </p>
+                      </article>
+                              <!-- Article Two -->
+                    <article class="article box">
+                        <h3>Article Two</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                          veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                          totam accusantium officiis!
+                        </p>
+                      </article>
+        <!-- Article One -->
+        <article class="article box">
+          <h3>Article One</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+            totam accusantium officiis!
+          </p>
+        </article>
+        <!-- Article Two -->
+        <article class="article box">
+          <h3>Article Two</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+            totam accusantium officiis!
+          </p>
+        </article>
+        <!-- Article Two -->
+        <article class="article box">
+            <h3>Article Two</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+              totam accusantium officiis!
+            </p>
+          </article>
+                  <!-- Article Two -->
+        <article class="article box">
+            <h3>Article Two</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+              totam accusantium officiis!
+            </p>
+          </article>
+                  <!-- Article One -->
+        <article class="article box">
+            <h3>Article One</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+              totam accusantium officiis!
+            </p>
+          </article>
+          <!-- Article Two -->
+          <article class="article box">
+            <h3>Article Two</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+              totam accusantium officiis!
+            </p>
+          </article>
+          <!-- Article Two -->
+          <article class="article box">
+              <h3>Article Two</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                totam accusantium officiis!
+              </p>
+            </article>
+                    <!-- Article Two -->
+          <article class="article box">
+              <h3>Article Two</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                totam accusantium officiis!
+              </p>
+            </article>
+            
+    </section>
+    </main>
+
+    <!-- Sidebar (right) -->
+    <aside id="sidebar" class="card">
+      <h3>Navigation</h3>
+      <!-- Navigation -->
+      <nav>
+          <ul id="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>  
+      </nav>
+      <hr />
+      <!-- contact -->
+      <h3>Contact Us</h3>
+      <ul>
+        <li><strong>Address:</strong> 50 Main st, Boston MA</li>
+        <li><strong>Phone:</strong> (555) 555-5555</li>
+        <li><strong>Email:</strong> me@somethingcool.come</li>
+      </ul>
+      <h3>Category</h3>
+      <ul class="side-menu">
+        <li><a href="#">A</a></li>
+        <li><a href="#">B</a></li>
+        <li><a href="#">C</a></li>
+        <li><a href="#">D</a></li>
+      </ul>
+    </aside>
+
+    <div class="clr"></div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p class="text-center">Copyright &copy; My Website 2019</p>
+
+    </footer>
+  </body>
+</html>
